@@ -15,13 +15,23 @@
 
 .flex-container{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
+.color-red{
+    color: red;
+}
+
+
+
+.barred{
+    text-decoration: line-through;
+}
 /* -----------------HEADER RULE----------------- */
 .my-row-header{
     background-color: #FF6801;
 }
+
 
 .header-container{
     padding: 10px;
@@ -60,10 +70,77 @@ header ul li a{
     padding-right: 8px;
 }
 
+
+
 /* -----------------MAIN RULE----------------- */
+.img-sale-container{
+    position: relative;
+}
+
+.product-container{
+    width: calc((100% / 3) - 20px);
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.product-container img{
+    width: 100%;
+}
+.tag-container{
+    position: absolute;
+    top: 500px;
+}
+
+.tag{
+    font-size: 12px;
+    margin-right: 4px;
+    color: white;
+    background-color: red;
+    padding: 3px;
+}
+.background-color-green{
+    background-color: green;
+}
+
+.main-container{
+    margin-bottom: 40px;
+}
+.like{
+    display: inline-block;
+    background-color: white;
+    padding: 8px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+.like:hover{
+    color: red;
+}
+
+.img-hover{
+    position: absolute;
+    left: 0px;
+    top: 0;
+    display: none;
+}
+.img-product{
+    position: relative;
+}
+
+.img-product:hover .img-hover{
+    display: inline-block;
+}
+
+
 
 /* -----------------FOOTER RULE----------------- */
-
+footer{
+    background-color: black;
+    color: white;
+    min-height: 50px;
+}
 
 
 /* -----------------DEBUG----------------- */
@@ -76,12 +153,12 @@ header ul li a{
 }
 */
 
+/*
 .debug main {
     background-color: beige;
     border: 1px dashed red;
 }
-
+*/
 .debug footer {
-    background-color: beige;
     border: 1px dashed red;
 }
