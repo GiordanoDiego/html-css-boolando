@@ -140,6 +140,17 @@ footer{
     background-color: black;
     color: white;
     min-height: 50px;
+    font-size: 14px;
+}
+
+.footer-container{
+    padding-top: 6px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.social{
+    padding-top: 5px;
 }
 
 
