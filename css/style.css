@@ -28,6 +28,11 @@
     text-decoration: line-through;
 }
 /* -----------------HEADER RULE----------------- */
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
 .my-row-header{
     background-color: #FF6801;
 }
